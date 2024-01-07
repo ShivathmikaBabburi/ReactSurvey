@@ -1,0 +1,49 @@
+/*css file for header*/
+
+/* Reset some default styles for lists and links */
+ul, li, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Style the navigation */
+nav {
+  background-color: #006633;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30px 0;
+  height: 50px; /* Increase padding for more vertical space */
+  /* If you want a specific height regardless of content, you can uncomment the next line */
+  /* height: 80px; */
+}
+/* Override Bootstrap container padding for container-fluid */
+.container-fluid {
+  padding: 0;
+  width: 100%; /* Ensures container-fluid is the full width of the viewport */
+  max-width: 100%; /* Prevents the container from exceeding the viewport width */
+}
+
+ul {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  padding: 10px; /* Adjust as needed */
+  margin: 0 auto; /* Centers the list if it doesn't take full width */
+  width: 100%; /* Ensures the list takes the full width of its container */
+}
+
+li {
+  margin: 0 10px; /* Adjust as needed */
+}
+
+a {
+  color: #fff; /* Change this to your desired text color */
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+  

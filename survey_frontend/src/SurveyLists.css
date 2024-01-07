@@ -1,0 +1,92 @@
+/* SurveyLists.css */
+
+/* Style for the table container */
+#myTable .table-responsive {
+  margin: 20px;
+  overflow-x: auto; /* Ensures the table is scrollable on small screens */
+}
+
+/* General table styles */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse; /* Collapse borders */
+}
+
+/* Table headers */
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  background-color: #f8f9fa; /* Light background for headers */
+  color: #495057; /* Darker text for contrast */
+}
+
+/* Table cells */
+.table td, .table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Zebra-striping for rows */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05); /* Light shade for odd rows */
+}
+
+
+
+.btn-success {
+  background-color: #006633;
+  color: #ffffff;
+  margin-right: 10px
+}
+
+.btn-success:hover {
+  background-color: #006633;
+}
+
+.btn-danger {
+  background-color:#006633;
+  color: #ffffff;
+}
+
+.btn-danger:hover {
+  background-color: #006633;
+}
+
+
+/* Additional CSS for button spacing and alignment */
+
+/* Container for the form buttons */
+.form-button-group {
+  display: flex;
+  justify-content: flex-start; /* Align buttons to the left */
+  gap: 20px; /* Adjust the space between buttons */
+  padding-top: 20px; /* Space above the button group */
+}
+
+/* Style for each button */
+.btn {
+  padding: 10px 15px; /* Button padding */
+  font-size: 16px; /* Text size within the button */
+  border: none; /* Remove borders */
+  border-radius: 4px; /* Rounded corners for buttons */
+  cursor: pointer; /* Hand cursor on hover */
+}
+/* Add this CSS to your existing styles */
+.button-container {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 10px; /* Adjust the space between stacked buttons */
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .table-responsive {
+    border: 0;
+  }
+}
+

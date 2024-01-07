@@ -1,0 +1,219 @@
+/* styles.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://its.gmu.edu/wp-content/uploads/ZoomBackground_05.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  color: #fff;
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  animation: fadeIn 1.5s ease-in-out; /* Add the fade-in animation */
+}
+
+.welcome-msg {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: none; /* Remove the max-width restriction */
+  justify-content: center;
+}
+button {
+  color: #006633; /* Change text color for better visibility */
+  background-color: transparent; /* Transparent background */
+  padding: 10px 20px;
+  border: 2px solid #006633; /* Solid border with a visible color */
+  border-radius: 4px;
+  margin: 5px;
+  cursor: pointer;
+  display: block;
+}
+
+button:hover {
+  background-color: #006633; /* Button background color on hover */
+  color: #fff; /* Text color on hover for contrast */
+  border: 2px solid #006633; /* Keep the border the same */
+}
+
+.custom-btn {
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+/* styles.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://its.gmu.edu/wp-content/uploads/ZoomBackground_05.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  color: #fff;
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  animation: fadeIn 1.5s ease-in-out; /* Add the fade-in animation */
+}
+
+.welcome-msg {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: none; /* Remove the max-width restriction */
+  justify-content: center;
+}
+
+/* styles.css */
+
+/* ... existing styles ... */
+
+/* Styling for the button container */
+/* styles.css */
+
+/* ... existing styles ... */
+
+/* styles.css */
+
+/* ... existing styles ... */
+
+.container .row {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  gap: 20px; /* This will create space between your buttons */
+}
+
+/* Styling for individual buttons */
+.container .col button {
+  flex: 1; /* Each button will take up equal space */
+  padding: 10px 20px; /* Control the padding inside the buttons */
+  min-width: 150px; /* Minimum width for each button */
+  max-width: 200px; /* Maximum width for each button */
+  margin: 0 10px; /* Margins to space out buttons */
+  white-space: nowrap; /* Ensure text doesn't wrap */
+  overflow: hidden; /* Prevent content from overflowing */
+  text-overflow: ellipsis; /* Add an ellipsis if the text is too long */
+}
+
+/* Make sure buttons don't grow beyond the size of their text */
+button {
+  background-color: #006633; /* Green background */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor pointer on hover */
+  width: auto; /* Width auto to fit content */
+}
+
+/* ... rest of your existing styles ... */
+
+
+/* ... rest of your existing styles ... */
+
+
+button:hover {
+  background-color: #004d26; /* Darker shade of green for hover effect */
+}
+
+/* Adjust the background of the container that holds the buttons */
+.container {
+  background-color: transparent; /* Make sure the container has no background */
+  /* Other styles */
+}
+
+/* If the .row class is used and has a background, make it transparent too */
+.row {
+  background-color: transparent;
+  /* Other styles */
+}
+
+/* Button styles */
+button {
+  /* Button styles */
+  background-color: #006633; /* Green background for buttons */
+  /* Remove any margin or padding that might create white space */
+  margin: 0;
+  padding: 10px 20px; /* Adjust padding as needed */
+  /* Other styles */
+}
+
+/* ... rest of your existing styles ... */
+
+/* ... rest of your existing styles ... */
+
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.custom-btn {
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

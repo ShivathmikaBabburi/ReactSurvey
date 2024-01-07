@@ -1,0 +1,141 @@
+/* SurveyForm.css */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.form-check {
+    display: flex;
+    align-items: center; /* Aligns items vertically center */
+    margin-bottom: 5px;
+}
+
+.form-check-label {
+    margin-left: 5px;
+    margin-bottom: 0; /* Remove any default bottom margin */
+}
+.heading {
+    font-family: 'Arial', sans-serif; /* Use a web-safe font family */
+    font-size: 36px; /* Size of the font */
+    color:#006633; /* Dark grey color for the text */
+    text-align: center; /* Center the heading * Space below the heading to separate it from the content */ /* Padding inside the heading for aesthetic spacing */
+   /* Soft shadow for depth */
+}
+
+.container {
+    background-color:white; /* White background for the form */
+    width: 80%; /* Adjust width to preferred size */
+    max-width: 960px; /* Set a max-width that's reasonable for larger screens */
+    margin: 50px auto; /* Center the form */
+    padding: 15px 40px; /* Add more padding if needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #ccc; /* Optional: Add a light border if preferred */
+}
+.required {
+    color: red; /* Sets the asterisk color to red */
+}
+
+.form-box {
+    margin: 0 auto; /* Center the form box */
+    padding: 20px; /* Add more padding to avoid touching the borders */
+    /* Other styles remain the same */
+}
+.address-header {
+    color: #006633; /* This will make the text green */
+    /* Add any additional styling you want here */
+}
+
+/* Adjust the inner form elements if needed */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Comfortable padding inside the inputs */
+    margin-bottom: 15px; /* Space between form elements */
+    border: 1px solid #ccc; /* Consistent border */
+    border-radius: 4px; /* Slightly rounded corners for inputs */
+}
+
+/* You can also add media queries to handle different screen sizes */
+@media (max-width: 768px) {
+    .container,
+    .form-box {
+        width: 95%; /* Make the form take up almost full width on smaller screens */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}
+
+
+/* ... rest of your existing styles ... */
+
+/* ... rest of your existing styles ... */
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-check-label {
+    margin-left: 5px;
+}
+
+.form-check-input {
+    margin-right: 5px;
+}
+
+.custom-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-success {
+    background-color: #006633;
+    color: #ffffff;
+}
+
+.btn-success:hover {
+    background-color: #006633;
+}
+
+.btn-danger {
+    background-color:#006633;
+    color: #ffffff;
+}
+
+.btn-danger:hover {
+    background-color: #006633;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+}
+
+textarea {
+    resize: vertical;
+}
